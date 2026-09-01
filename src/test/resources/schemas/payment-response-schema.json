@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "required": [
+    "status",
+    "transactionId"
+  ],
+  "properties": {
+    "status": {
+      "type": "string"
+    },
+    "transactionId": {
+      "type": "string"
+    }
+  }
+}
