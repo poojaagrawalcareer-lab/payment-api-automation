@@ -23,7 +23,8 @@ pipeline {
                     reportFiles: 'cucumber-report.html',
                     reportName: 'Cucumber Report',
                     keepAll: true,
-                    alwaysLinkToLastBuild: true
+                    alwaysLinkToLastBuild: true,
+                    allowMissing: false
                 ])
             }
         }
