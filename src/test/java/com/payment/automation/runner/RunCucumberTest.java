@@ -13,10 +13,6 @@ import static io.cucumber.junit.platform.engine.Constants.GLUE_PROPERTY_NAME;
 @SelectClasspathResource("features")
 @ConfigurationParameter(
         key = PLUGIN_PROPERTY_NAME,
-        value = "pretty,html:target/cucumber-report.html"
-)
-@ConfigurationParameter(
-        key = PLUGIN_PROPERTY_NAME,
         value = "pretty,html:target/cucumber-report.html,json:target/cucumber.json"
 )
 @ConfigurationParameter(
